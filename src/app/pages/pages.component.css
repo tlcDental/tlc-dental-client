@@ -1,0 +1,18 @@
+.page-wrapper {
+    background: #f4f6f9;
+    padding-bottom: 60px;
+    position: relative;
+}
+.container-fluid {
+    padding: 25px 25px;
+  }
+
+
+  /*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+@media (max-width: 767px) {
+    .container-fluid {
+      padding: 25px 15px 25px 15px;
+    }
+}
