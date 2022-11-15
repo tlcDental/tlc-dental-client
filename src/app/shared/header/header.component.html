@@ -1,0 +1,48 @@
+<!-- <nav class="navbar navbar-expand-lg nav mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand " [routerLink]="['/home/about-us']" routerLinkActive="router-link-active" >
+        <img src="../../../assets/tlc-logo.png"> 
+      </a>
+      <div class=" navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <app-link ref="/home/about" text="Home"></app-link>
+          </li>
+          <li class="nav-item">
+            <app-link ref="/home/contact" text="Contact Us"></app-link>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact-number">
+      <div >
+        <app-link text="US#: (980)328-1866" ref="tel:980-328-1866" [tel]="true"></app-link>
+      </div>
+      <div>
+        <app-link text="MX#: 01152 658-517-3404" ref="tel:01152 658-517-3404" [tel]="true"></app-link>
+      </div>
+    </div>
+</nav> -->
+<nav class="navbar navbar-expand-lg nav mb-5 ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item no-pading">
+          <app-link ref="/home/about" text="Home"></app-link>
+        </li>
+        <li class="nav-item no-padding">
+          <app-link ref="/home/contact" text="Contact Us"></app-link>
+        </li>
+      </ul>
+      <div class="contact-number no-padding">
+          <app-link text="US#: (980)328-1866" ref="tel:980-328-1866" [tel]="true"></app-link>
+          <app-link text="MX#: 01152 658-517-3404" ref="tel:01152 658-517-3404" [tel]="true"></app-link>
+      </div>
+    </div>
+  </div>
+</nav>
+
