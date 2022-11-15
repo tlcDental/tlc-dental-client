@@ -1,0 +1,26 @@
+.map-img {
+    width: 100%;
+    height: 350px;
+}
+.info-text {
+    margin-left: 15px;
+}
+.contact-text{
+    text-align: center;
+}
+.center{
+    justify-content: center;
+}
+
+/*-- ============================================================== 
+    Phone and below ipad(767px) 
+============================================================== */
+@media (max-width: 767px) {
+    .map-img {
+        width: 100%;
+        height: 200px;
+    }
+    .info-text {
+        margin-left: 0px;
+    }
+}
